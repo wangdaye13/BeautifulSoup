@@ -11,8 +11,21 @@
         
 
     <body>
+        <div id="raw-json">
+            {{ responseJSON }}
+        </div>
 
-        {{ responseJSON }}
+        <hr>
+
+        <div id="json rows">
+            {% for job in responseJSON %}
+            <div>{{ job[0] }}</div>
+            <div>{{ job[1] }}</div>
+            <div>{{ job[2] }}</div>
+            <hr>
+            {% endfor %}
+        </div>
+
 
     </body>
 </html>
