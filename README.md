@@ -1,3 +1,13 @@
+## Clone the Repo
+
+Clone the repo by whater means you like. After cloning `cd` into the downloaded BeautifulSoup directery.
+
+```
+git clone https://github.com/crispycret/BeautifulSoup.git
+# or
+git clone git@github.com:crispycret/BeautifulSoup.git
+```
+
 ## Setup
 
 #### Start by creating a virtual environment.
