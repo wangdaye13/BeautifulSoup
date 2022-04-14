@@ -52,7 +52,7 @@ To start the flask application run:
 flask run
 ```
 
-
+Once the application is running you can go to `http://localhost:5000/` in a browser to view the application.
 
 
 
