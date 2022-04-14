@@ -1,3 +1,13 @@
+## Clone the Repo
+
+Clone the repo by whater means you like. After cloning `cd` into the downloaded BeautifulSoup directery.
+
+```
+git clone https://github.com/crispycret/BeautifulSoup.git
+# or
+git clone git@github.com:crispycret/BeautifulSoup.git
+```
+
 ## Setup
 
 #### Start by creating a virtual environment.
@@ -42,7 +52,7 @@ To start the flask application run:
 flask run
 ```
 
-
+Once the application is running you can go to `http://localhost:5000/` in a browser to view the application.
 
 
 
