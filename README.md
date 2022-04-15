@@ -59,6 +59,12 @@ cd /your/path/to/BeautifulSoup
 
 After activating the virtual environment you should see that your terminal prompt is prefixed by `(venv)`
 
+```
+(venv) user@COMPUTERNAME:~/path/to/BeautifulSoup$
+or
+(venv) PS C:\PATH\TO\BeautifulSoup>
+```
+
 
 ### Install the required moudles.
 
