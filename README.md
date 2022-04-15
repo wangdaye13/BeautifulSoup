@@ -33,9 +33,21 @@ To get activate the virtualenv on windows 10 you must do the following
 * Lastly navigate inside the `BeaitufulSoup` folder and run `.\venv\bin\Activate.ps1`
 
 
+##### Allow unsigned scripts to be executed
 ```
 set-executionpolicy remotesigned
+```
+##### Output
+```
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): Y
+```
 
+#### Navigate to the BeautifulSoup folder and activate the virtual environment
+'''
 cd /your/path/to/BeautifulSoup
 
 .\venv\bin\Activate.ps1
