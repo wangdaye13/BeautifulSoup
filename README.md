@@ -47,7 +47,7 @@ https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the executi
 ```
 
 #### Navigate to the BeautifulSoup folder and activate the virtual environment
-'''
+```
 cd /your/path/to/BeautifulSoup
 
 .\venv\bin\Activate.ps1
