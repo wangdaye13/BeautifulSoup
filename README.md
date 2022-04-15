@@ -61,7 +61,7 @@ After activating the virtual environment you should see that your terminal promp
 
 ```
 (venv) user@COMPUTERNAME:~/path/to/BeautifulSoup$
-or
+#            or
 (venv) PS C:\PATH\TO\BeautifulSoup>
 ```
 
