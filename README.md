@@ -85,7 +85,7 @@ To start the flask application run:
 
 ```
 flask run
-``
+```
 
 If for some reason running flask provides you with the following error then you will need to set the `FLASK_APP` variable manually.
 
@@ -101,7 +101,7 @@ set FLASK_APP=task6.py
 #If on linux/WSL use 
 export FLASK_APP=task6.py
 ```
-`
+
 
 Once the application is running you can go to `http://127.0.0.1:5000/` in a browser to view the application.
 
