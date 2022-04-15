@@ -7,7 +7,7 @@ git clone https://github.com/crispycret/BeautifulSoup.git
 # or
 git clone git@github.com:crispycret/BeautifulSoup.git
 
-cd BeBeautifulSoup
+cd BeautifulSoup
 ```
 
 ## Setup
