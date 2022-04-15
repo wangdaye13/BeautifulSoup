@@ -22,7 +22,7 @@ def displayJobDetails():
 	
 	# Retireve the response content as json data
 	responseJSON = response.json()
-	print (responseJSON)
+	
 	# Render the index.html template by passing in the responseJSON data.
 	return render_template('index.html', responseJSON=responseJSON)
 

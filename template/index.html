@@ -18,11 +18,16 @@
         <hr>
 
         <div id="json-rows">
+
+            <!-- job = ['job_title', 'company_name', 'description', 'salary'] -->
             {% for job in responseJSON %}
-            <div>{{ job[0] }}</div>
-            <div>{{ job[1] }}</div>
-            <div>{{ job[2] }}</div>
-            <hr>
+            
+                <div>Title: {{ job[0] }}</div>
+                <div>Company: {{ job[1] }}</div>
+                <div>Description: {{ job[2] }}</div>
+                <div>Salary: {{ job[3] }}</div>
+                <hr>
+                
             {% endfor %}
         </div>
 
