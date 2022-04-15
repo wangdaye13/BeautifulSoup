@@ -29,8 +29,18 @@ source venv/bin/activate
 
 To get activate the virtualenv on windows 10 you must do the following
 * Run `powershell` as `admin`
-* Run the command `set-executionpolicy remotesigned` to allow untrusted scripts to be run. This is required for activating the virtualenv.
-* Lastly navigate to the `BeaitufulSoup` folder and run `.\venv\bin\Activate.ps1`
+* Run the command `set-executionpolicy remotesigned` and answer `Y` to the response to allow untrusted scripts to be run. This is required for activating the virtualenv.
+* Lastly navigate inside the `BeaitufulSoup` folder and run `.\venv\bin\Activate.ps1`
+
+
+```
+set-executionpolicy remotesigned
+
+cd /your/path/to/BeautifulSoup
+
+.\venv\bin\Activate.ps1
+```
+
 
 
 #### WSL / WSL2 / Linux / Windows virtualenv conclusion
