@@ -6,6 +6,8 @@ Clone the repo by whater means you like. After cloning `cd` into the downloaded 
 git clone https://github.com/crispycret/BeautifulSoup.git
 # or
 git clone git@github.com:crispycret/BeautifulSoup.git
+
+cd BeBeautifulSoup
 ```
 
 ## Setup
