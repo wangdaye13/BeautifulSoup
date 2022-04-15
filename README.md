@@ -10,19 +10,35 @@ git clone git@github.com:crispycret/BeautifulSoup.git
 
 ## Setup
 
-#### Start by creating a virtual environment.
+### Start by creating a virtual environment.
 
 ```
 python3 -m venv venv
 ```
 
-#### Activate the virtual environment
+### Activate the virtual environment
 
+#### WSL / WSL2 / Linux
 ```
 source venv/bin/activate
 ```
 
-#### Install the required moudles.
+#### Windows
+
+To get activate the virtualenv on windows 10 you must do the following
+* Run `powershell` as `admin`
+* Run the command `set-executionpolicy remotesigned` to allow untrusted scripts to be run. This is required for activating the virtualenv.
+* Lastly navigate to the `BeaitufulSoup` folder and run `.\venv\bin\Activate.ps1`
+
+
+#### WSL / WSL2 / Linux / Windows virtualenv conclusion
+
+After activating the virtual environment you should see that your terminal prompt is prefixed by `(venv)`
+
+
+### Install the required moudles.
+
+Install the modules required for this project.
 
 ```
 pip install -r requirements.txt
@@ -35,7 +51,7 @@ This includes an extra module: `python-dotenv==0.20.0` which will read a `.env` 
 Error: Could not locate a Flask application. You did not provide the "FLASK_APP" environment variable, and a "wsgi.py" or "app.py" module was not found in the current directory.
 ```
 
-# Manually Set Environment Variables If Needed
+### Manually Set Environment Variables If Needed
 ```
 # If on windows use 
 set FLASK_APP=task6.py
@@ -52,7 +68,7 @@ To start the flask application run:
 flask run
 ```
 
-Once the application is running you can go to `http://localhost:5000/` in a browser to view the application.
+Once the application is running you can go to `http://127.0.0.1:5000/` in a browser to view the application.
 
 
 
