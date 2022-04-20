@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
+<head>
     <meta charset="UTF-8">
-    <title>Microservice</title>
+    <title>Flask</title>
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./css/myStyle.css"> -->
-    </head>
-        
+    <link rel="stylesheet" href="css/jobDetails.css">
+</head>
 
-    <body>
-        <div id="raw-json">
-            {{ responseJSON }}
+
+<body>
+    <div id="raw-json">
+        {{ responseJSON }}
+    </div>
+
+    <hr>
+    <h1>Job Details</h1>
+    <div id="json-rows">
+
+        <!-- job = ['job_title', 'company_name', 'description', 'salary'] -->
+        {% for job in responseJSON %}
+
+        <div class="title">
+            Title: {{ job[0] }}
         </div>
-
+        <div>Company: {{ job[1] }}</div>
+        <div>Description: {{ job[2] }}</div>
+        <div>Salary: {{ job[3] }}</div>
         <hr>
 
-        <div id="json-rows">
-
-            <!-- job = ['job_title', 'company_name', 'description', 'salary'] -->
-            {% for job in responseJSON %}
-            
-                <div>Title: {{ job[0] }}</div>
-                <div>Company: {{ job[1] }}</div>
-                <div>Description: {{ job[2] }}</div>
-                <div>Salary: {{ job[3] }}</div>
-                <hr>
-                
-            {% endfor %}
-        </div>
+        {% endfor %}
+    </div>
 
 
-    </body>
+</body>
+
 </html>
